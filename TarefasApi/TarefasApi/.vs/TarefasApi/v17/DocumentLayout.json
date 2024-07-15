@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|c:\\users\\administrador\\documents\\github\\testetarefas\\tarefasapi\\tarefasapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|c:\\users\\administrador\\documents\\github\\testetarefas\\tarefasapi\\tarefasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|c:\\users\\administrador\\documents\\github\\testetarefas\\tarefasapi\\tarefasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|c:\\users\\administrador\\documents\\github\\testetarefas\\tarefasapi\\tarefasapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|solutionrelative:controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|c:\\users\\administrador\\documents\\github\\testetarefas\\tarefasapi\\tarefasapi\\dtos\\tarefacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|solutionrelative:dtos\\tarefacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|c:\\users\\administrador\\documents\\github\\testetarefas\\tarefasapi\\tarefasapi\\tarefasapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0C420E3E-A5B0-474E-90AC-D8CE0B450FE2}|TarefasApi.csproj|solutionrelative:tarefasapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T12:38:08.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarefaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\DTOs\\TarefaCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TarefaCreateDto.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\DTOs\\TarefaCreateDto.cs",
+              "RelativeToolTip": "DTOs\\TarefaCreateDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvwkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:48:26.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "Controllers\\TarefaController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvxYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T16:55:28.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TarefasApi",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\TarefasApi.csproj",
+              "RelativeDocumentMoniker": "TarefasApi.csproj",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\TarefasApi.csproj",
+              "RelativeToolTip": "TarefasApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-13T19:46:42.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T17:37:52.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\TesteTarefas\\TarefasApi\\TarefasApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-13T16:18:11.702Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

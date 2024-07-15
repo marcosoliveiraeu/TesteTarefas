@@ -1,0 +1,26 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "titulo": "Primeira Tarefa local",
+      "descricao": "blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla",
+      "status": {
+        "id": 1,
+        "descricao": "Pendente"
+      },
+      "dtAbertura": "2024-07-13T13:08:35.1913223",
+      "dtConclusao": null
+    },
+    {
+      "id": 4,
+      "titulo": "Quarta Tarefa local ",
+      "descricao": "blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla",
+      "status": {
+        "id": 2,
+        "descricao": "Concluída"
+      },
+      "dtAbertura": "2024-07-13T13:08:35.1931029",
+      "dtConclusao": "2024-07-13T13:08:35.193103"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="header">
+    <h2>Tarefas</h2>
+    <button class="adicionar-tarefa-button" (click)="openCreateTaskDialog()">Nova Tarefa</button>
+  </div>
+  <table class="tarefa-table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Título</th>
+        <th>Status</th>
+        <th>Data de Abertura</th>
+        <th>Data de Conclusão</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody  *ngFor="let item of tarefas">
+      <tr>
+        <td>{{ item.id }}</td>
+        <td>{{ item.titulo }}</td>
+        <td>{{ item.status.descricao }}</td>
+        <td>{{ item.dtAbertura }}</td>
+        <td>{{ item.dtConclusao }}</td>
+        <td>
+          <button class="editar-button" (click)="editTask(item)">Editar</button>
+          <button class="delete-button" (click)="deleteTask(item.id!, item.titulo)">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

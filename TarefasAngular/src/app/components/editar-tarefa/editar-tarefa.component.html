@@ -1,0 +1,47 @@
+<h2 mat-dialog-title>Editar Tarefa</h2>
+<mat-dialog-content>
+  <form [formGroup]="tarefaForm">
+    <div>
+      <label>ID:</label>
+      <input type="text" [value]="data.id" disabled />
+    </div>
+    <div>
+      <label>Título:</label>
+      <input  type="text" formControlName="titulo" />
+      <div *ngIf="tarefaForm.get('titulo')?.invalid && tarefaForm.get('titulo')?.touched">
+        <small *ngIf="tarefaForm.get('titulo')?.errors?.['required']">Título é obrigatório.</small>
+        <small *ngIf="tarefaForm.get('titulo')?.errors?.['minlength']">Mínimo de 4 caracteres.</small>
+        <small *ngIf="tarefaForm.get('titulo')?.errors?.['maxlength']">Máximo de 100 caracteres.</small>
+      </div>
+    </div>
+    <div>
+      <label>Descrição:</label>
+      <textarea formControlName="descricao"></textarea>
+      <div *ngIf="tarefaForm.get('descricao')?.invalid && tarefaForm.get('descricao')?.touched">
+        <small *ngIf="tarefaForm.get('descricao')?.errors?.['required']">Descrição é obrigatória.</small>
+        <small *ngIf="tarefaForm.get('descricao')?.errors?.['minlength']">Mínimo de 4 caracteres.</small>
+        <small *ngIf="tarefaForm.get('descricao')?.errors?.['maxlength']">Máximo de 500 caracteres.</small>
+      </div>
+    </div>
+    <div>
+      <label>Status:</label>
+      <select formControlName="statusId">
+        <option [value]="1">Pendente</option>
+        <option [value]="2">Concluída</option>
+      </select>
+    </div>
+    <div>
+      <label>Data de Abertura:</label>
+      <input type="text" [value]="data.dtAbertura" [readonly]="true" />
+    </div>
+    <div>
+      <label>Data de Conclusão:</label>
+      <!-- <input type="text" [value]="data.dtConclusao" disabled /> -->
+      <input type="text" formControlName="dtConclusao" [readonly]="true" />
+    </div>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-button color="primary" (click)="onSave()" [disabled]="tarefaForm.invalid">Salvar</button>
+</mat-dialog-actions>

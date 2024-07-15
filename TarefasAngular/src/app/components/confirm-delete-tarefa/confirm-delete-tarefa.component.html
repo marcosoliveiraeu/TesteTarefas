@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Confirmar Exclusão</h2>
+
+<mat-dialog-content>
+  <p>Você tem certeza que deseja excluir a tarefa "<strong>{{ data.titulo }}</strong>" (ID: {{ data.id }})?</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-button color="warn" (click)="onConfirm()">Excluir</button>
+</mat-dialog-actions>
+
+

@@ -1,0 +1,93 @@
+:host {
+  display: block;
+
+  background-color: #f1e3a5;
+
+}
+
+
+.mat-dialog-container {
+  background-color: #f1e3a5;
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+mat-dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[mat-button] {
+  background-color: #01adb3;
+  color: white;
+}
+
+button[mat-button]:hover {
+  background-color: #018a91;
+}
+
+button[mat-button][color="primary"] {
+  background-color: #01adb3;
+}
+
+button[mat-button][color="primary"]:hover {
+  background-color: #018a91;
+}
+
+small {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
