@@ -10,14 +10,16 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { TarefaService } from '../../services/Tarefa.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
-
+import { PipesModule } from '../../pipes/pipes.module';
+import { DateFormatPipe } from '../../pipes/date-format.pipe';
 
 @Component({
   selector: 'app-editar-tarefa',
   standalone: true,
-  imports: [MatDialogModule,MatFormFieldModule,CommonModule,ReactiveFormsModule],
+  imports: [MatDialogModule,MatFormFieldModule,CommonModule,ReactiveFormsModule,PipesModule],
   templateUrl: './editar-tarefa.component.html',
-  styleUrls: ['./editar-tarefa.component.css']
+  styleUrls: ['./editar-tarefa.component.css'],
+  providers: [DateFormatPipe]
 })
 export class EditarTarefaComponent implements OnInit {
 
@@ -29,16 +31,17 @@ export class EditarTarefaComponent implements OnInit {
               private tarefaService: TarefaService,
               public dialogRef: MatDialogRef<EditarTarefaComponent>,
               @Inject(MAT_DIALOG_DATA) public data: Tarefa,
-              private snackBar: MatSnackBar)
+              private snackBar: MatSnackBar,
+              private dateFormatPipe: DateFormatPipe)
   {
 
-    this.originalConclusaoDate = data.dtConclusao;
+    this.originalConclusaoDate = this.dateFormatPipe.transform(data.dtConclusao);
 
     this.tarefaForm = this.fb.group({
       titulo: [data.titulo, [Validators.required, Validators.minLength(4), Validators.maxLength(100)]],
       descricao: [data.descricao, [Validators.required, Validators.minLength(4), Validators.maxLength(500)]],
       statusId: [data.status.id],
-      dtConclusao: [data.dtConclusao || null]
+      dtConclusao: [this.dateFormatPipe.transform(data.dtConclusao)]
 
     });
 

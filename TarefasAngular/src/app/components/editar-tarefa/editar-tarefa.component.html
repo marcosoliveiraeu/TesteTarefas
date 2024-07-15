@@ -32,12 +32,16 @@
     </div>
     <div>
       <label>Data de Abertura:</label>
-      <input type="text" [value]="data.dtAbertura" [readonly]="true" />
+      <input type="text" [value]="data.dtAbertura | dateFormat " [readonly]="true" />
     </div>
     <div>
       <label>Data de Conclusão:</label>
-      <!-- <input type="text" [value]="data.dtConclusao" disabled /> -->
+      <!--
+      <input type="text" [value]="data.dtConclusao" disabled />
+
+      -->
       <input type="text" formControlName="dtConclusao" [readonly]="true" />
+
     </div>
   </form>
 </mat-dialog-content>

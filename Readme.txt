@@ -21,9 +21,9 @@ opção via promt de comando:
  
 Passo 2 - BackEnd
 
-  - abrir a solução do projeto no VisualStudio 2022 e inicializar o projeto via https .
+  - abrir a solução do projeto no VisualStudio 2022 e inicializar o projeto via http .
   - a aplicação vai abrir o swagger e ali já podem ser feitos testes para visualizar a api funcionando.
-  - a aplicação vai rodar em https://localhost:7131 , essa é a url que foi configurada no frontend  para buscar e consumir a api.  
+  - a aplicação vai rodar em http://localhost:7131 , essa é a url que foi configurada no frontend  para buscar e consumir a api.  
 
 
 ------------------------------------------------------------------------------------------

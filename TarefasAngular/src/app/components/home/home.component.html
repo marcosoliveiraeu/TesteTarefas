@@ -19,8 +19,8 @@
         <td>{{ item.id }}</td>
         <td>{{ item.titulo }}</td>
         <td>{{ item.status.descricao }}</td>
-        <td>{{ item.dtAbertura }}</td>
-        <td>{{ item.dtConclusao }}</td>
+        <td>{{ item.dtAbertura   | dateFormat }}</td>
+        <td>{{ item.dtConclusao  | dateFormat }}</td>
         <td>
           <button class="editar-button" (click)="editTask(item)">Editar</button>
           <button class="delete-button" (click)="deleteTask(item.id!, item.titulo)">Excluir</button>

@@ -8,11 +8,12 @@ import { ConfirmDeleteTarefaComponent } from '../confirm-delete-tarefa/confirm-d
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatButtonModule } from '@angular/material/button';
 import { EditarTarefaComponent } from '../editar-tarefa/editar-tarefa.component';
+import { PipesModule } from '../../pipes/pipes.module';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, DatePipe,  MatButtonModule],
+  imports: [CommonModule, DatePipe,  MatButtonModule , PipesModule] ,
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -34,13 +35,16 @@ export class HomeComponent implements OnInit{
 
       dados.map((item)=> {
 
-        item.dtAbertura = new Date(item.dtAbertura!).toLocaleDateString('pt-BR');
+
+       /*  //item.dtAbertura = new Date(item.dtAbertura!).toLocaleDateString('pt-BR');
+
+        item.dtAbertura = this.formatDate(item.dtAbertura)
 
         if(item.dtConclusao){
           item.dtConclusao = new Date(item.dtConclusao!).toLocaleDateString('pt-BR');
         }else{
           item.dtConclusao = "";
-        }
+        } */
 
       })
 
@@ -51,6 +55,16 @@ export class HomeComponent implements OnInit{
 
 
   }
+
+  /* formatDate(date: string | null): string {
+
+    console.log(date);
+
+    if (!date) return '';
+    const parsedDate = new Date(date);
+    return isNaN(parsedDate.getTime()) ? '' : parsedDate.toLocaleDateString('pt-BR');
+
+  } */
 
   openCreateTaskDialog(): void {
     const dialogRef = this.dialog.open(NovaTarefaComponent, {

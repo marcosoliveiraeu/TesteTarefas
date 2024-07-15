@@ -134,3 +134,4 @@ C:\Users\Administrador\Documents\GitHub\TesteTarefas\TarefasApi\TarefasApi\obj\D
 C:\Users\Administrador\Documents\GitHub\TesteTarefas\TarefasApi\TarefasApi\obj\Debug\net8.0\TarefasApi.pdb
 C:\Users\Administrador\Documents\GitHub\TesteTarefas\TarefasApi\TarefasApi\obj\Debug\net8.0\TarefasApi.genruntimeconfig.cache
 C:\Users\Administrador\Documents\GitHub\TesteTarefas\TarefasApi\TarefasApi\obj\Debug\net8.0\ref\TarefasApi.dll
+C:\Users\Administrador\Documents\GitHub\TesteTarefas\TarefasApi\TarefasApi\obj\Debug\net8.0\TarefasApi.sourcelink.json

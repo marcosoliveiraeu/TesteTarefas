@@ -6,5 +6,5 @@ export interface Tarefa{
   descricao: string,
   status: StatusTarefa,
   dtAbertura: string,
-  dtConclusao?: string
+  dtConclusao: string
 }
